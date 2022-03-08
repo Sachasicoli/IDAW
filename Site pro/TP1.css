@@ -1,7 +1,8 @@
 body{
-    font-family: Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
   }
+  
 
 h1{
     font-size: 70;
@@ -12,23 +13,87 @@ p, span {
         font-size: smaller;}
     .p2{
         font-size: larger; }
-    .cv-zone1-formation, span{
-        width: 500px;
-        height: 250px;
-        border : 2px solid black;
-        overflow :hidden;}
+    .cv-zone2-experiences{
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 500px;
+            border : 2px solid rgba(0, 0, 139, 0.486);
+            border-radius : 20px;
+            overflow :hidden;}  
+    .cv-experience1-poste{
+                font-size : xx-large;
+                background-color : rgba(0, 0, 139, 0.623);
+                color: white ;
+                text-align: center;
+                border : 2px solid rgba(0, 0, 139, 0.486);
+                border-radius : 20px;
+                height: 40px;
+                PADDING : 10px;
+                max-width: fit-content;
+                }
+    .cv-experience1-lieu{
+                    font-size: x-large;
+                    width: 500px;
+                    height: 50px;}
+    .cv-experience1-desc{
+                        font-size: large;
+                        width: 500px;
+                        height: 50px;
+                        }
+    .cv-experience2-poste{
+                align-content: center;
+                font-size : xx-large;
+                background-color : rgba(0, 0, 139, 0.623);
+                color: white ;
+                text-align: center;
+                border : 2px solid rgba(0, 0, 139, 0.486);
+                border-radius : 20px;
+                height: 40px;
+                padding: 10px;
+                max-width: fit-content;
+                }
+    .cv-experience2-lieu{
+                    font-size: x-large;
+                    width: 500px;
+                    height: 50px;}
+    .cv-experience2-desc{
+                        font-size: large;
+                        width: 500px;
+                        height: 50px;
+                        }
+    .cv-zone1-formation{
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 300px;
+            border : 2px solid rgba(0, 0, 139, 0.486);
+            border-radius : 20px;
+            overflow :hidden;}
 
         
-        .cv-formation1-ecole, span{
+    .cv-formation1-ecole{
             font-size : xx-large;
             width: 500px;
             height: 30px;}
-            .cv-formation1-lieu, span {
+    .cv-formation1-lieu{
                 font-size: x-large;
                 width: 500px;
                 height: 50px;}
-                .cv-formation1-desc, span{
+    .cv-formation1-desc{
                     font-size: large;
                     width: 500px;
-                    height: 20px;
-                    overflow:scroll}
+                    height: 60px;
+                    }
+.menu{
+    background-color: darkgray;
+    color : black;
+    padding: 10px;
+    max-width: fit-content ;
+}
+#currentpage{
+    color: white;
+    background-color: grey;
+}
+.im1{
+    width: 200px;
+    border: 2px solid darkblue;
+}
