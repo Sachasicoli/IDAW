@@ -12,12 +12,14 @@
         <ul>";
         foreach($mymenu as $pageId => $pageParameters) {
             if ($pageId!=$currentPageId){
-                echo "<li><a href='".$pageId.".php'>".$pageParameters."</a></li>";}
+                echo "<li><a href='index.php?page=".$pageId.".php'>".$pageParameters."</a></li>"
             else {
-                echo "<li><a id='currentpage' href='".$pageId.".php'>".$pageParameters."</a></li>";
+                echo "<li><a id='currentpage' href='index.php?page=".$pageId.".php'>".$pageParameters."</a></li>";
             }
         }
         echo "</ul> </nav>";
         // ...
     } 
 ?>
+
+

@@ -1,10 +1,13 @@
 
 <?php
-    require_once('template_header.php');
-?>
+   require_once("template_header.php");
+    $currentPageId = 'acceuil';
+    if(isset($_GET['page'])) {
+      $currentPageId = $_GET['page'];
+   } ?>
 <?php
     require_once('template_menu.php');
-    renderMenuToHTML('index');
+    renderMenuToHTML('accueil');
 ?>   
     <h1>Sacha Sicoli</h1>
     <p class="titre">I'm currently looking for an internship</p>
