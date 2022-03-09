@@ -1,11 +1,16 @@
 <?php
+   error_reporting(E_ALL);
    require_once("template_header.php");
-    $currentPageId = 'acceuil';
-    if(isset($_GET['page'])) {
+   require_once('template_menu.php');
+   $currentPageId = 'accueil';
+   if(isset($_GET['page'])) {
       $currentPageId = $_GET['page'];
-   } ?>
-<?php
-renderMenuToHTML($currentPageId);
+   }
+   if(isset($_GET['lang'])) {
+      $currentPagelang = $_GET['lang'];
+   }
+
+   renderMenuToHTML($currentPageId);
 ?>
 <section class="corps">
 <?php
@@ -13,7 +18,8 @@ renderMenuToHTML($currentPageId);
    if(is_readable($pageToInclude)){
       require_once($pageToInclude);}
    else{
-      require_once("error.php");}
+      require_once("error.php");
+   }
 ?>
 </section>
 <?php

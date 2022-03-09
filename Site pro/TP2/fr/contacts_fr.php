@@ -1,0 +1,2 @@
+<a href="index.php?page=contacts_en&lang=en">Anglais</a>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, voluptas asperiores non necessitatibus repellendus ullam, eaque quod at labore amet totam ipsa cupiditate corrupti error modi porro delectus eius facere.</p>
