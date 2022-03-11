@@ -1,14 +1,7 @@
-<?php
-   require_once("template_header.php");
-    $currentPageId = 'projets';
-    if(isset($_GET['page'])) {
-      $currentPageId = $_GET['page'];
-   } ?>
-<?php
-require_once('template_menu.php');
-renderMenuToHTML($currentPageId);
-?>  
-        <h1>Projets réalisés</h1>
+<nav class='en'>
+  <a href="index.php?page=projets&lang=en">EN</a>
+  </nav>
+        <h1>Projets</h1>
         <p class="titre">Détech'sion</p>
         <div class="zone">
             <p class="soustitre">Stellantis </p>
@@ -23,5 +16,4 @@ renderMenuToHTML($currentPageId);
             <p class="desc">Projet de codage d'application avec SWIFT UI pour les
               appareils iOS pour aider à la prise de photos des patients avant et après chirurgie.</p>
         </div>
-        <?php require_once('template_footer.php');?>
 

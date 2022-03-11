@@ -1,5 +1,7 @@
-<a href="index.php?page=cv_en&lang=en">Anglais</a>     
-        <h1 class="h1cv">CV de Sacha Sicoli</h1>
+<nav class='en'>
+  <a href="index.php?page=cv&lang=en">EN</a>
+  </nav>
+        <h1>CV de Sacha Sicoli</h1>
         <img class="im1" src="IMG_2571-2.jpg" alt="Mais quel homme">
         <p class="titre"><b>Formation</b></p>
         <div class="zone">

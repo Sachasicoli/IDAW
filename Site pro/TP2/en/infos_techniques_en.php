@@ -1,2 +1,0 @@
-<a href="index.php?page=infos_techniques_fr&lang=fr">Français</a>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, voluptas asperiores non necessitatibus repellendus ullam, eaque quod at labore amet totam ipsa cupiditate corrupti error modi porro delectus eius facere.</p>
