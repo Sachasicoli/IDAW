@@ -1,6 +1,6 @@
 <nav class='en'>
   <a href="index.php?page=projets&lang=en">EN</a>
-  </nav>
+</nav>
         <h1>Projets</h1>
         <p class="titre">Détech'sion</p>
         <div class="zone">

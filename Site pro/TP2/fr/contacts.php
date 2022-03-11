@@ -1,6 +1,6 @@
 <nav class='en'>
   <a href="index.php?page=contacts&lang=en">EN</a>
-  </nav>
+</nav>
 <h1>Contacts</h1>
 <div class="zone">
             <p class="soustitre">Tel </p>

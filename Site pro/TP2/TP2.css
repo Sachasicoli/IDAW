@@ -76,7 +76,7 @@ p, span {
     overflow :hidden;
     text-align: left;
     background-color: rgba(0, 195, 255, 0.208);
-                max-width: fit-content;
+    max-width: fit-content;
 }
 
 .fr{
@@ -89,7 +89,7 @@ p, span {
     overflow :hidden;
     text-align: left;
     background-color: rgba(0, 195, 255, 0.208);
-                max-width: fit-content;
+    max-width: fit-content;
 }
 
 .im1{

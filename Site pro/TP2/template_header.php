@@ -6,4 +6,3 @@
         <link rel="stylesheet" href="TP2.css" />
     </head>
     <body>
-        <div class="'page">
