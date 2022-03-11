@@ -1,4 +1,4 @@
-<nav class='en'>
+<nav class='change_lang'>
   <a href="index.php?page=cv&lang=en">EN</a>
 </nav>
         <h1>CV de Sacha Sicoli</h1>

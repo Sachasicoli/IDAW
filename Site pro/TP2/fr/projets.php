@@ -1,4 +1,4 @@
-<nav class='en'>
+<nav class='change_lang'>
   <a href="index.php?page=projets&lang=en">EN</a>
 </nav>
         <h1>Projets</h1>
