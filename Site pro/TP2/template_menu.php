@@ -7,7 +7,7 @@
             'cv' =>  array('fr' => 'CV', 'en' => 'CV'),
             'projets' => array('fr' => 'Projets', 'en' => 'Projects'),
             'infos_techniques' => array('fr' => 'Infos Techniques', 'en' => 'Technical Information'),
-            'contacts' => array('fr' => 'Contacts', 'en' => 'Contacts'), 
+            'contacts' => array('fr' => 'Contacts', 'en' => 'Contacts'))
         );
         echo "<nav class='menu'><ul>";
         foreach($mymenu as $pageId => $pageParameters) {
