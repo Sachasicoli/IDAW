@@ -1,5 +1,4 @@
 <?php
-   error_reporting(E_ALL);
    require_once("template_header.php");
    require_once('template_menu.php');
    $currentPageId = 'accueil';
@@ -24,5 +23,5 @@
 ?>
 </section>
 <?php
-require_once("template_footer.php");
+   require_once("template_footer.php");
 ?>
