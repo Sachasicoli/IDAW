@@ -7,7 +7,7 @@
             'cv' =>  array('fr' => 'CV', 'en' => 'CV'),
             'projets' => array('fr' => 'Projets', 'en' => 'Projects'),
             'infos_techniques' => array('fr' => 'Infos Techniques', 'en' => 'Technical Information'),
-            'contacts' => array('fr' => 'Contacts', 'en' => 'Contacts'))
+            'contacts' => array('fr' => 'Contacts', 'en' => 'Contacts')
         );
         echo "<nav class='menu'><ul>";
         foreach($mymenu as $pageId => $pageParameters) {
@@ -20,11 +20,11 @@
                 }
             }
             else{
-                if ($pageId.!=$currentPageId){
-                    echo "<li><a href='index.php?page=".$pageId."&lang=fr>.$pageParameters['fr'].</a></li>";
+                if ($pageId!=$currentPageId){
+                    echo "<li><a href='index.php?page=".$pageId."&lang=fr>".$pageParameters['fr']."</a></li>";
                 }
                 else {
-                    echo "<li><a id='currentpage' href='index.php?page=".$pageId."&lang=fr>.$pageParameters['fr'].</a></li>";
+                    echo "<li><a id='currentpage' href='index.php?page=".$pageId."&lang=fr>".$pageParameters['fr']."</a></li>";
             }}}
         echo "</ul> </nav>"; }
 ?>

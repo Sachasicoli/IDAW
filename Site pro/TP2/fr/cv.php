@@ -1,6 +1,6 @@
-<nav class='change_lang'>
-  <a href="index.php?page=cv&lang=en">EN</a>
-</nav>
+<div>
+  <a class='change_lang' href="index.php?page=cv&lang=en">EN</a>
+</div>
         <h1>CV de Sacha Sicoli</h1>
         <img class="im1" src="IMG_2571-2.jpg" alt="Mais quel homme">
         <p class="titre"><b>Formation</b></p>
