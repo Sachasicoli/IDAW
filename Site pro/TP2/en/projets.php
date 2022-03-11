@@ -1,5 +1,5 @@
 <div>
-  <a class='change_lang' href="index.php?page=projets&lang=fr">Projets</a>
+  <a class='change_lang' href="index.php?page=projets&lang=fr">FR</a>
 </div>   
         <h1>Projects</h1>
         <p class="titre">Détech'sion</p>

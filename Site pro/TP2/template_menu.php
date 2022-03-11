@@ -11,21 +11,12 @@
         );
         echo "<nav class='menu'><ul>";
         foreach($mymenu as $pageId => $pageParameters) {
-            if ($currentPageLang=='en'){
-                if ($pageId!=$currentPageId){
-                    echo "<li><a href='index.php?page=".$pageId."&lang=en>".$pageParameters['en']."</a></li>";
-                }
-                else {
-                    echo "<li><a id='currentpage' href='index.php?page=".$pageId."&lang=en>".$pageParameters['en']."</a></li>";
-                }
+            if ($pageId!=$currentPageId){
+                echo "<li><a href='index.php?page=".$pageId."&lang=".$currentPageLang."'>".$pageParameters[$currentPageLang]."</a></li>";
             }
-            else{
-                if ($pageId!=$currentPageId){
-                    echo "<li><a href='index.php?page=".$pageId."&lang=fr>".$pageParameters['fr']."</a></li>";
-                }
-                else {
-                    echo "<li><a id='currentpage' href='index.php?page=".$pageId."&lang=fr>".$pageParameters['fr']."</a></li>";
-            }}}
+            else {
+                echo "<li><a id='currentpage' href='index.php?page=".$pageId."&lang=".$currentPageLang."'>".$pageParameters[$currentPageLang]."</a></li>";
+                }}
         echo "</ul> </nav>"; }
 ?>
 

@@ -1,5 +1,5 @@
 <div>
-  <a class='change_lang' classhref="index.php?page=accueil&lang=en">EN</a>
+  <a class='change_lang' href="index.php?page=accueil&lang=en">EN</a>
 </div>
       <h1>Sacha Sicoli, Accueil</h1>
       <p class="titre">Je suis actuellement en recherche de stage</p>
