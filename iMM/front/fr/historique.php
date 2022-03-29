@@ -42,7 +42,7 @@ try {
 
 <body>
     <div class="container flex">
-        <h1>Liste des utilisateurs</h1>
+        <h1>Historique</h1>
     </div>
     <div class="container flex">
         <table>
@@ -65,6 +65,3 @@ try {
         </table>
     </div>
 </body>
-
-</html>
-
