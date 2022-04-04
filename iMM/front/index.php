@@ -1,20 +1,18 @@
 <?php
-   require_once("template_header.php");
-   $currentPageId = 'accueil';
-   $currentPageLang = 'fr';
+   require_once("template/header.php");
+   $currentPageId = 'login';
    if(isset($_GET['page'])) {
       $currentPageId = $_GET['page'];
    }
-   if(isset($_GET['lang'])) {
-      $currentPageLang = $_GET['lang'];
-   }
-   require_once('template_menu.php');
-   renderMenuToHTML($currentPageId,$currentPageLang);
+   if ($currentPageId!='login' && $currentPageId!='inscription' && $currentPageId!='connected'
+   && $currentPageId!='disconnect'){
+      require_once('template/menu.php');
+      renderMenuToHTML($currentPageId);}
 ?>
       <body>
          <section class="corps">
                <?php
-                  $pageToInclude = $currentPageLang."/".$currentPageId.".php";
+                  $pageToInclude = $currentPageId.".php";
                   if(is_readable($pageToInclude)){
                      require_once($pageToInclude);
                   }
@@ -25,5 +23,5 @@
          </section>
       </body>
 <?php
-      require_once("template_footer.php");
+      require_once("template/footer.php");
 ?>

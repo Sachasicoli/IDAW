@@ -1,0 +1,71 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(46, 46, 108);
+    background-color: rgba(255, 255, 0, 0.16);
+  }
+  
+
+h1{
+    font-size: 70;
+}
+
+p, span {
+    font-size: 50px;}
+    .zone{
+            padding : 20px;
+            max-height: fit-content;
+            border : 2px solid rgba(0, 0, 139, 0.486);
+            border-radius : 20px;
+            overflow :hidden;
+            text-align: left;
+            background-color: rgba(0, 195, 255, 0.208);}  
+    .soustitre{
+                font-size : xx-large;
+                background-color : rgba(0, 0, 139, 0.623);
+                color: white ;
+                text-align: center;
+                border : 2px solid rgba(0, 0, 139, 0.486);
+                border-radius : 20px;
+                height: 40px;
+                PADDING : 10px;
+                max-width: fit-content;
+                }
+
+.menu{
+    align-items: right;
+    font-size : xx-large;
+    padding : 20px;
+    max-height: fit-content;
+    border : 2px solid rgba(0, 0, 139, 0.486);
+    border-radius : 20px;
+    overflow :hidden;
+    text-align: left;
+    background-color: rgba(0, 195, 255, 0.208);
+                max-width: fit-content;
+}
+#currentpage{
+    font-size : xx-large;
+                background-color : rgba(0, 0, 139, 0.623);
+                color: white ;
+                text-align: center;
+                border : 2px solid rgba(0, 0, 139, 0.486);
+                border-radius : 20px;
+                height: fit-content;
+                PADDING-left : 10px;
+                padding-right: 10px ;
+                max-width: fit-content;
+}
+.change_lang{
+    align-items: right;
+    font-size : xx-large;
+    padding : 20px;
+    max-height: fit-content;
+    border : 2px solid rgba(0, 0, 139, 0.486);
+    border-radius : 20px;
+    overflow :hidden;
+    text-align: left;
+    background-color: rgba(0, 195, 255, 0.208);
+    max-width: fit-content;
+}

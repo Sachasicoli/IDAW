@@ -20,13 +20,13 @@ $mysqli->query('INSERT INTO User VALUES 'diego.sicoli', 'Sicoli', 'Diego', '2004
 
 <?php
 $host = 'localhost';
-$dbname = 'iMM_data';
+$dbname = 'mysql';
 $username = 'root';
 $password = 'root';
 
 $dsn = "mysql:host=$host;dbname=$dbname";
 
-$sql = "SELECT * FROM User";
+$sql = "SELECT * FROM Oui";
 
 try {
     $pdo = new PDO($dsn, $username, $password);
@@ -58,7 +58,7 @@ try {
                     <tr>
                         <td><?php echo htmlspecialchars($row['Login']); ?></td>
                         <td><?php echo htmlspecialchars($row['Nom']); ?></td>
-                        <td><?php echo htmlspecialchars($row['Prénom']); ?></td>
+                        <td><?php echo htmlspecialchars($row['Prenom']); ?></td>
                     </tr>
                 <?php endwhile; ?>
             </tbody>
